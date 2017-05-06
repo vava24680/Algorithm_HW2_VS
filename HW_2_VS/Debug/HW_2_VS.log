@@ -1,0 +1,22 @@
+﻿已經開始建置於 2017/5/7 上午 02:06:24。
+     1>節點 2 (Build 目標) 上的專案 "F:\NCTU\NCTU_05_DOWN\Algorithm\HW_2_VS\HW_2_VS\HW_2_VS.vcxproj"。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\HW_2\simple_check.cpp
+         simple_check.cpp
+     1>f:\nctu\nctu_05_down\algorithm\hw_2\simple_check.cpp(60): error C2440: '正在初始化' : 無法由 'initializer-list' 轉換為 'std::vector<mark_node,std::allocator<_Ty>>'
+                 with
+                 [
+                     _Ty=mark_node
+                 ]
+                 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+     1>f:\nctu\nctu_05_down\algorithm\hw_2\simple_check.cpp(102): error C2440: '正在初始化' : 無法由 'initializer-list' 轉換為 'std::vector<mark_node,std::allocator<_Ty>>'
+                 with
+                 [
+                     _Ty=mark_node
+                 ]
+                 沒有可以取得來源類型的建構函式，或建構函式多載解析模稜兩可
+     1>專案 "F:\NCTU\NCTU_05_DOWN\Algorithm\HW_2_VS\HW_2_VS\HW_2_VS.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.65
